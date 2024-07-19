@@ -55,3 +55,7 @@ main {
 #my-map {
     min-height: 500px;
 }
+
+.api-key {
+    visibility: hidden;
+}
