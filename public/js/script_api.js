@@ -8,8 +8,8 @@ const inputCodeP = document.querySelector(".codep");
 const selectVille = document.querySelector(".ville");
 let selectArea = document.getElementById("ville");
 
-let apiKeyChildGet = document.getElementById("api-key");
-let apiKeyChildString = apiKeyChildGet.innerText;
+let apiKeyChildGet = document.getElementById("api-key-wrapper");
+let apiKeyChildString = apiKeyChildGet.querySelector('div.api-key').value;
 
 inputCodeP.addEventListener('input', () => {
     let value = inputCodeP.value;
